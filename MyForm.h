@@ -43,8 +43,10 @@ namespace pz18 {
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::Button^ button2;
-	private: System::Windows::Forms::ToolTip^ Name;
-	private: System::Windows::Forms::ToolTip^ Password;
+	private: System::Windows::Forms::ToolTip^ toolStrip1;
+	private: System::Windows::Forms::ToolTip^ toolStrip2;
+
+
 
 
 	private: System::ComponentModel::IContainer^ components;
@@ -71,8 +73,8 @@ namespace pz18 {
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->Name = (gcnew System::Windows::Forms::ToolTip(this->components));
-			this->Password = (gcnew System::Windows::Forms::ToolTip(this->components));
+			this->toolStrip1 = (gcnew System::Windows::Forms::ToolTip(this->components));
+			this->toolStrip2 = (gcnew System::Windows::Forms::ToolTip(this->components));
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
